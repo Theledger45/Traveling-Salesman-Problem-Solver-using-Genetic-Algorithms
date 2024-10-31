@@ -346,7 +346,7 @@ class TSPGuiApp:
 # Main function
 def main():
     root = tk.Tk()
-    tsp_file = r'C:\Users\quarl\fall2024\CSE545\CSE545_Project4\Random100.tsp'
+    tsp_file ="" #Your file path
     app = TSPGuiApp(root, tsp_file)
     root.mainloop()
 
